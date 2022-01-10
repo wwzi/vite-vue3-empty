@@ -25,5 +25,6 @@ module.exports = {
     'import/no-unresolved': 'error',
     'import/no-extraneous-dependencies': ['error', { devDependencies: ['./*.js', './*.ts'] }],
     'vue/no-multiple-template-root': 0,
+    'global-require': 0,
   },
 };

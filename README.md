@@ -56,3 +56,6 @@ lint-staged
 样式规范
 
 - `npm i stylelint stylelint-order stylelint-config-standard stylelint-order stylelint-config-prettier stylelint-prettier -D`
+
+原子 CSS
+tailwind
