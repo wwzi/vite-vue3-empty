@@ -1,0 +1,43 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": ["source.fixAll.eslint", "source.formatDocument"]
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": ["source.fixAll.eslint", "source.formatDocument"]
+  },
+  "[css]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": ["source.fixAll.stylelint", "source.formatDocument"]
+  },
+  "[less]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": ["source.fixAll.stylelint", "source.formatDocument"]
+  },
+  "[scss]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": ["source.fixAll.stylelint", "source.formatDocument"]
+  },
+  "[json]": {
+    "editor.codeActionsOnSave": ["source.formatDocument"]
+  },
+  "[jsonc]": {
+    "editor.codeActionsOnSave": ["source.formatDocument"]
+  },
+  "[html]": {
+    "editor.codeActionsOnSave": ["source.formatDocument"]
+  },
+  "[yaml]": {
+    "editor.codeActionsOnSave": ["source.formatDocument"]
+  },
+  "[markdown]": {
+    "editor.codeActionsOnSave": ["source.formatDocument"]
+  },
+  "[vue]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": ["source.fixAll.eslint", "source.formatDocument"]
+  }
+}
