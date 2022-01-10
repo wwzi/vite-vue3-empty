@@ -7,3 +7,6 @@ https://juejin.cn/post/6951649464637636622
 + vue -> vue-ts
 + 修改 vite.config.ts
 + 安装 @types/node
+
+重置默认样式
++ /src/styles/reset.css
