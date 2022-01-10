@@ -46,3 +46,8 @@ husky
 lint-staged
 
 - `npm i lint-staged -D`
+
+提交规范 (Commitizen)
+
+- `npm i -g commitizen`
+- `git cz` 提交代码
