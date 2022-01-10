@@ -42,6 +42,7 @@ husky
 - npx husky-init && npm install
 - 在 `.husky` 目录下进行配置
 - 常用的钩子 `pre-commit、commit-msg、pre-push`
+- npx husky add .husky/commit-msg "npx --no-install commitlint --edit "$1""
 
 lint-staged
 
@@ -51,3 +52,7 @@ lint-staged
 
 - `npm i -g commitizen`
 - `git cz` 提交代码
+
+样式规范
+
+- `npm i stylelint stylelint-order stylelint-config-standard stylelint-order stylelint-config-prettier stylelint-prettier -D`
