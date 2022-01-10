@@ -30,11 +30,19 @@ Prettier
 - `npm i prettier -D`
 - 增加 `.prettierrc` 文件
 
-````
-
 ESLint
-+ ```安装 ESLint 插件```
-+ ```npm i eslint -D```
-+ ```npx eslint --init```
-+ 修改 ```。eslintrc.js``` 文件
-````
+
+- `安装 ESLint 插件`
+- `npm i eslint -D`
+- `npx eslint --init`
+- 修改 `。eslintrc.js` 文件
+
+husky
+
+- npx husky-init && npm install
+- 在 `.husky` 目录下进行配置
+- 常用的钩子 `pre-commit、commit-msg、pre-push`
+
+lint-staged
+
+- `npm i lint-staged -D`
